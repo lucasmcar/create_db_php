@@ -1,0 +1,20 @@
+{
+    "name": "lukas/dp_create_database",
+    "description": "Database creator project",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Devpoa Software",
+            "email": "suporte.devpoa@gmail.com"
+        }
+    ],
+    "require": {
+        "longman/telegram-bot": "^0.80.0",
+        "vlucas/phpdotenv": "^5.5",
+        "telegram-bot/api": "^2.3"
+    }
+}
